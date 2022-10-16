@@ -575,6 +575,10 @@ section {
   z-index: 1;
 }
 
+.portfolio-wrap h6 {
+  margin-bottom: 1.2rem !important;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(255, 255, 255, 0.5);
@@ -667,18 +671,17 @@ section {
   box-shadow: 0px 0 30px rgba(5, 13, 24, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
+.portfolio-details .portfolio-info h2 {
+  font-size: 32px;
   font-weight: 700;
   margin-bottom: 20px;
-  padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .portfolio-details .portfolio-info ul li+li {
@@ -697,6 +700,10 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.swiper-slide img{
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
